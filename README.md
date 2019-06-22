@@ -1,3 +1,14 @@
+Preview de la aplicacion 
+
+
+![Screenshot 2019-06-21 at 21 32 51](https://user-images.githubusercontent.com/46875264/59958431-3ea6ac00-946c-11e9-9571-3f688fd5a810.png)
+
+
+
+
+
+Procedimiento
+
 # AppForIf
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
