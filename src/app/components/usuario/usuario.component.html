@@ -1,0 +1,39 @@
+<p class="item1">
+    Item: <input type="text"> 
+    <button class="btn btn-secondary boton" (click)="eliminar()">Eliminar</button>
+    <button class="btn btn-secondary boton"  (click)="mostrar=!mostrar">Descripción</button>
+    <button class="btn btn-secondary boton" (click)="show=!show">valor</button>
+</p>
+
+
+
+<div class="conteiner">
+
+<div class="descripcion">
+  <p *ngIf="mostrar; else mostrarMensaje">
+    Descripción:
+  <input  class="descripcion" type="text" size="40">
+  
+</p>
+<ng-template #mostrarMensaje>
+
+  
+  
+</ng-template>
+</div>
+
+<div class="valor">
+
+<p *ngIf="show; else mostrarValor">
+  valor:  
+  <input type="text">
+  </p>
+<ng-template #mostrarValor>
+
+  
+  
+  </ng-template>
+</div>
+</div>
+<hr>
+

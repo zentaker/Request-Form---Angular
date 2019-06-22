@@ -1,0 +1,89 @@
+
+<h1 class="center">Request</h1>
+
+<div class="container">
+  <div class="card">
+    <h5 class="card-header">Nuevo Requerimiento</h5>
+    <div class="card-body">
+
+        <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido">
+              </div>
+            </div>
+          </form>
+
+          <button class="btn btn-secondary" (click)="agregarUsuario()" [disabled]="desactivado">Agregar Nuevo Item</button>
+         <div class="item">
+          
+     
+          <app-usuario *ngFor="let usuario of usuarios; let indice = index" 
+                      
+                      [indice]="indice"
+                      (onEliminar)="eliminarUsuario($event)">
+                      </app-usuario>
+
+         </div>
+
+
+
+ 
+
+
+      
+      
+    </div>
+
+    <a href="#" class="btn btn-primary">submit</a>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <button (click)="agregarUsuario()" [disabled]="desactivado">Agregar</button>
+
+
+<div *ngFor="let usuario of usuarios">
+  <h3>{{usuario.name}}</h3>
+  {{usuario.username}}
+
+  <hr>
+
+</div> -->
+
+<!-- <app-usuario *ngFor="let usuario of usuarios; let indice = index" 
+              [userName]="usuario.username" 
+              [userNombre]="usuario.name"
+              [usuario]="usuario"
+              [indice]="indice"
+              (onEliminar)="eliminarUsuario($event)">
+</app-usuario> -->
+
+
+
+
+

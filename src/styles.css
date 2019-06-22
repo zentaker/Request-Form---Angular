@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+.center {
+    text-align: center;
+}
+
+.conteiner {
+    display: flex;
+    
+}
+.descripcion {
+
+    height: 50px;
+}
+.btn {
+    margin-top: 20px;
+}
+.item {
+    margin-top: 20px;
+}
+p .boton {
+    margin-left: 20px;
+    margin-top: -10px;
+    
+}
+.valor {
+    margin-left: 10px;
+}
